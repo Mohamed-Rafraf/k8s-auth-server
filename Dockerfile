@@ -1,0 +1,6 @@
+FROM ubuntu
+COPY ./k8s-auth-server /app
+EXPOSE 80
+EXPOSE 443
+EXPOSE 8080
+ENTRYPOINT /app
